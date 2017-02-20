@@ -131,7 +131,7 @@
             <option value="Option 1">feminine</option>
             <option value="Option 2">masculine</option>
             <option value="Option 3">a mixture of both - it depends on my mood</option>
-            <option value="Option 4">neither masculine or feminine</option>
+            <option value="Option 4">neither masculine nor feminine</option>
             </select>
             <label for="exampleRecipientInput">Your are:</label>
             <select class="u-full-width" id="gender">
@@ -142,17 +142,17 @@
             </select>
             <label for="exampleRecipientInput">Your most prized possession is:</label>
             <select class="u-full-width" id="possession">
-            <option value="Option 1">a man</option>
-            <option value="Option 2">a woman</option>
-            <option value="Option 3">sometimes a woman, sometimes a man, sometimes both</option>
-            <option value="Option 4">neither a man nor a woman</option>
+            <option value="Option 1">a locket containing a picture of your deceased sister</option>
+            <option value="Option 2">your music collection</option>
+            <option value="Option 3">your artifical arm</option>
+            <option value="Option 4">a book of spells</option>
             </select>
             <label for="exampleRecipientInput">In your backpack you also carry:</label>
             <select class="u-full-width" id="backpack">
             <option value="Option 1">spare clothes, a map of your hometown, 800 credits</option>
             <option value="Option 2">heavy boots, 3 months worth of concentrated protein, 250 credits</option>
             <option value="Option 3">a silk scarf, a pocket knife, a red gemstone, 400 credits</option>
-            <option value="Option 4">neither a man nor a woman</option>
+            <option value="Option 4">an unidentified electronic device, a filtration mask, 80 credits</option>
             </select>
             <label for="exampleRecipientInput">You are most likely to fall in love with:</label>
             <select class="u-full-width" id="love">
@@ -166,7 +166,7 @@
             <option value="Option 1">dark</option>
             <option value="Option 2">brown</option>
             <option value="Option 3">pale</option>
-            <option value="Option 4">green and slightly scale</option>
+            <option value="Option 4">green and slightly scaley</option>
             </select>
             <label for="exampleRecipientInput">Your hair is:</label>
             <select class="u-full-width" id="hair">
@@ -178,11 +178,10 @@
             </select>
             <label for="exampleRecipientInput">Your preferred weapon is:</label>
             <select class="u-full-width" id="weapon">
-            <option value="Option 1">non-existent</option>
-            <option value="Option 2">blond and almost to your waist</option>
-            <option value="Option 3">dark and cropped close to your scalp</option>
-            <option value="Option 4">grey and uncontrollable</option>
-            <option value="Option 5">liable to change colour without warning</option>
+            <option value="Option 1">a dagger with a hilt encrusted with jewels of every colour</option>
+            <option value="Option 2">a magic rope</option>
+            <option value="Option 3">your grandmother's longsword</option>
+            <option value="Option 4">your quick with and power of persuasion</option>
             </select>
         </form>
     </div>
