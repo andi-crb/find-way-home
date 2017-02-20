@@ -71,7 +71,8 @@
         <?php
     }
     if(isset($_POST['continue-h'])){
-        $currentpath = 3
+        $currentpath = 3;
+        $backpack[] = "datacard"; 
         ?>
         <style type="text/css">.character{
             display:block;
@@ -140,35 +141,35 @@
             <option value="Option 4">neither a man nor a woman</option>
             </select>
             <label for="exampleRecipientInput">Your most prized possession is:</label>
-            <select class="u-full-width" id="presentation">
+            <select class="u-full-width" id="possession">
             <option value="Option 1">a man</option>
             <option value="Option 2">a woman</option>
             <option value="Option 3">sometimes a woman, sometimes a man, sometimes both</option>
             <option value="Option 4">neither a man nor a woman</option>
             </select>
             <label for="exampleRecipientInput">In your backpack you also carry:</label>
-            <select class="u-full-width" id="presentation">
+            <select class="u-full-width" id="backpack">
             <option value="Option 1">spare clothes, a map of your hometown, 800 credits</option>
-            <option value="Option 2">heavy boots, </option>
+            <option value="Option 2">heavy boots, 3 months worth of concentrated protein, 250 credits</option>
             <option value="Option 3">a silk scarf, a pocket knife, a red gemstone, 400 credits</option>
             <option value="Option 4">neither a man nor a woman</option>
             </select>
             <label for="exampleRecipientInput">You are most likely to fall in love with:</label>
-            <select class="u-full-width" id="presentation">
+            <select class="u-full-width" id="love">
             <option value="Option 1">a man</option>
             <option value="Option 2">a woman</option>
             <option value="Option 3">it could be someone of any gender</option>
             <option value="Option 4">no-one - I love my friends but falling in love isn't a thing that I do</option>
             </select>
             <label for="exampleRecipientInput">Your skin is best described as:</label>
-            <select class="u-full-width" id="presentation">
+            <select class="u-full-width" id="skin">
             <option value="Option 1">dark</option>
             <option value="Option 2">brown</option>
             <option value="Option 3">pale</option>
             <option value="Option 4">green and slightly scale</option>
             </select>
             <label for="exampleRecipientInput">Your hair is:</label>
-            <select class="u-full-width" id="presentation">
+            <select class="u-full-width" id="hair">
             <option value="Option 1">non-existent</option>
             <option value="Option 2">blond and almost to your waist</option>
             <option value="Option 3">dark and cropped close to your scalp</option>
@@ -176,7 +177,7 @@
             <option value="Option 5">liable to change colour without warning</option>
             </select>
             <label for="exampleRecipientInput">Your preferred weapon is:</label>
-            <select class="u-full-width" id="presentation">
+            <select class="u-full-width" id="weapon">
             <option value="Option 1">non-existent</option>
             <option value="Option 2">blond and almost to your waist</option>
             <option value="Option 3">dark and cropped close to your scalp</option>
